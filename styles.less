@@ -1,0 +1,519 @@
+body{
+    overflow-X: hidden;
+
+
+}
+
+
+@white: white;
+@padding : 95px;
+@padding1 : 50px;
+@padding2: 35px;
+@padding3: 100px;
+
+
+
+
+    // header
+
+
+.head{
+    background-color: #003cff;
+}  
+
+
+
+
+    // logo section
+
+
+.logo{
+    margin-top: 10px;
+}
+
+
+
+
+    // menu section
+
+
+
+.menu{
+    display: flex;
+    align-self: center;  
+   background-color:  #003cff !important;
+}
+.menuli{
+    height: 55px; 
+    display: flex;
+    justify-content: unset !important;
+}
+
+.menuPad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    color: white !important;
+}
+.btn{
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    outline: none;    
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn1{
+    background-color: unset;
+    color: white;
+    font-size: 12px;
+}
+
+#btn2{  
+    font-size: 12px;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+        // section 1
+
+
+
+.sec1p1{
+    padding-top: @padding;
+    padding-bottom: @padding1;
+    text-align: center;
+}
+
+.sec1p2{
+    padding-bottom: @padding2;
+    font-size: 30px;
+    font-family: "ProximaNova";
+    color: @white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec1p3{
+    padding-bottom: @padding;
+    color: @white;
+    text-align: center;
+    font-family: "ProximaNova";
+    font-size: 16px;
+
+
+}
+.head1{
+    background-color: #3e2974;
+}
+
+#span{
+    font-weight: bold;
+    color: @white;
+    font-size: 28px;
+    font-family: "ProximaNova";
+
+}
+
+
+
+
+        // section 2
+
+
+.sec2p1{
+    text-align:  center;
+    padding-top: @padding;
+    padding-bottom: @padding3;
+}
+
+#p1text{
+    font-size: 24px;
+    font-family: "ProximaNova";
+}
+
+#p2text{
+    padding-bottom: @padding3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos{
+    width: 68px;
+    height: 59px;
+}
+
+
+
+
+
+
+        //  section 3
+
+
+.rot {
+    transform: rotate(-3deg);
+    width:110%;
+   top: -5%;
+    left: -5%;
+    background-image: url("assets/image-we-work.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: auto;
+    position: relative;
+
+}
+
+.rot:after{
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-color: #3e2974;
+    content: " ";
+    top: 0;
+    left: 0;
+    opacity: .7;
+
+}
+
+
+
+
+.sec3p1{
+    font-size: 36px;
+    font-family: "ProximaNova";
+    color: @white;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 35px;
+    transform: rotate(3deg);
+    z-index: 1;
+
+
+}
+
+.sec3p2{
+    font-size: 24px;
+    font-family: "ProximaNova";
+    color: @white;
+    line-height: 1.2;
+    text-align: center;
+    transform: rotate(3deg);
+    padding-bottom: 35px;
+    z-index: 1;
+
+
+}
+
+
+                //  form section
+
+.sec3p3{
+    font-size: 24px;
+    font-family: "ProximaNova";
+    color: @white;
+    text-align: center;
+    transform: rotate(3deg);
+    padding-bottom: 180px;
+    z-index: 1;
+
+
+}
+
+#search{
+    width: 285px;
+    height: 50px;
+    outline: none;
+    z-index: 1;
+}
+
+#but3_3{
+    height: 50px;
+    width: 200px;
+    font-size: 17.775px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    background-color: #003cff;
+    border: none;
+    z-index: 1;
+}
+.lbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(183, 183, 183);
+    padding-left: 20px ;
+}
+
+
+
+
+        // section 4
+
+                        // 1
+.sec4p1{
+    padding-top: @padding3;
+}
+
+
+.icon1{
+    width: 368px;
+    height: 182px;
+}
+
+
+.creation {
+    font-size: 36px;
+    font-family: "ProximaNova";
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+
+
+}
+.creation_text {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(1, 1, 1);
+
+
+}
+
+                         // 2
+
+.sec4p2{
+    .sec4p1;
+
+}
+
+.generation{
+
+    .creation ;
+
+}
+
+.generation_text{
+    .creation_text;
+
+}
+
+.sec4p2_right{
+    text-align: right;
+}
+
+.icon2 {
+
+    width: 272px;
+    height: 167px;
+
+}
+
+
+                            // 3
+
+
+.sec4p3{
+    .sec4p1;
+
+}
+
+.icon3{
+    width: 248px;
+    height: 243px;
+}
+
+.collaboration{
+    .creation
+}
+
+.collaboration_text{
+    .creation_text
+}
+
+
+                            // 4
+
+.sec4p4{
+    .sec4p1;
+
+}
+
+.distribution{
+
+    .creation ;
+
+}
+
+.distribution_text{
+    .creation_text;
+
+}
+
+.sec4p4_right{
+    text-align: right;
+}
+
+.icon4{
+
+    width: 327px;
+    height: 230px;
+
+}
+
+
+                              // 5
+
+.sec4p5{
+    .sec4p1;
+    padding-bottom: @padding3;
+
+}
+
+.icon5{
+    width: 377px;
+    height: 203px;
+}
+
+.analytics{
+    .creation
+}
+
+.analytics_text{
+    .creation_text
+}
+
+
+
+
+                            // section 5
+
+.rot1 {
+
+    background-color: #3e2974;
+    width: 110%;
+    transform: rotate(-3deg);
+    left: -5%;
+    position: relative;
+
+
+
+
+/*.color_a{
+    background-color: red;
+    width: 100%;
+    height: 500px ;
+
+
+}*/
+
+
+
+}
+
+.sec5p1{
+    font-size: 24px;
+    font-family: "ProximaNova";
+    color: @white;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 35px;
+    transform: rotate(3deg);
+
+
+
+
+}
+
+
+
+
+//  form section-5
+
+
+
+.sec5p3{
+    .sec3p3 ;
+    padding-bottom: 30px;
+
+
+}
+
+#search1{
+    #search;
+
+
+
+}
+
+#but5_3{
+    #but3_3;
+
+}
+.lbl1{
+    .lbl;
+
+}
+
+::placeholder{
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(183, 183, 183);
+    padding-left: 20px ;
+}
+
+
+//footer
+
+
+.cent{
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    padding-bottom: 140px;
+    transform: rotate(3deg);
+}
+
+.color_a{
+    height: 80px;
+   position: relative;
+    display: block;
+    bottom:  40px;
+    background: #3e2974;
+}
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .head{
+        display: none;
+    }
+    .right{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1201px) {
+    .white{
+        font-size: 14px;
+    }
+}
+
+
